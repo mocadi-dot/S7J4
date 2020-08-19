@@ -28,4 +28,8 @@ const entrepreneurs = [
 
 //3 quel âge aurait chaque inventeur aujourd'hui
 
-//Trie les entrepreneurs par ordre alphabétique
+//Trie les entrepreneurs par ordre alphabétique https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/sort
+  console.log("Les entrepreneurs par de nom de famille")
+  console.log(entrepreneurs.sort((a, b) => a.last.localeCompare(b.last)))
+}
+  
