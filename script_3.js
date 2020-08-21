@@ -7,3 +7,4 @@ function pyramid() {
     console.log(" ".repeat(n - i) + "#".repeat(i));
   }
 }
+pyramid();
