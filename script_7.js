@@ -13,9 +13,9 @@ function majuscule(input) {
 	};
 }
 
-function fornite(input) {
+function fortnite(input) {
 
-	if (input.indexOf("Fornite") != -1 || input.indexOf("fornite") != -1) {
+	if (input.indexOf("Fortnite") != -1 || input.indexOf("fortnite") != -1) {
 		return input;
 	};
 }
@@ -35,7 +35,7 @@ function bot() {
 			case majuscule(input):
 				console.log("Bot : Pwa, calme-toi...");
 				break;
-			case fornite(input):
+			case fortnite(input):
 				console.log("Bot : on s' fait une partie soum-soum ?");
 				break;
 			case "":
