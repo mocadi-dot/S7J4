@@ -1,16 +1,12 @@
-prompt("De quel nombre veux-tu calculer la factorielle ?");
+  
+let answer = prompt("De quel nombre veux-tu calculer la factorielle ?");
 
-// Utilisateur rentre un nombre (par ex 4)
-// Dans la console le résultat suivant est affiché
-//"Le résultat est : 24"
-var f = [];
-function factorial (n) {
-  if (n == 0 || n == 1)
-    return 1;
-  if (f[n] > 0)
-    return f[n];
-  return f[n] = factorial(n-1) * n;
-} ​
+function factorial(answer) {
+	let number = 1;
+	for (let count = 1; count <=answer; count++) {
+		number *= count;
+	};
+	console.log(number)
+};
 
-result =factorial(input)
-console.log("Le résultat est :" + result");
+factorial(answer);
